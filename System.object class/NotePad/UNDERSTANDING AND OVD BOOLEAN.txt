@@ -1,0 +1,42 @@
+CLASS.CS
+
+
+public class Person
+{
+    //properties
+
+    public string PersonName { get; set; }
+    public string Email { get; set; }
+
+    //overriding the equals method 
+    public override bool Equals(object obj)
+    {
+        Person p= (Person)obj;
+        if(this.PersonName==p.PersonName &&this.Email == p.Email)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+}
+----------------------------
+PROGRAM.CS
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        //create an object of person
+        System.Object obj=new Person() { PersonName = "scott", Email = "data@yahoo.com" };
+
+        //acess method 
+        Console.WriteLine(obj.Equals(new Person() { PersonName = "scott", Email = "data@yahoo.com" }));
+        
+
+        Console.ReadKey();
+    }
+}

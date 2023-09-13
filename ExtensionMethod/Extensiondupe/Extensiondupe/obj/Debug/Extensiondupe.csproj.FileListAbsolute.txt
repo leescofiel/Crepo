@@ -1,0 +1,10 @@
+C:\Users\259813\Documents\C# PROJECTS\ExtensionMethod\Extensiondupe\Extensiondupe\bin\Debug\Extensiondupe.exe.config
+C:\Users\259813\Documents\C# PROJECTS\ExtensionMethod\Extensiondupe\Extensiondupe\bin\Debug\Extensiondupe.exe
+C:\Users\259813\Documents\C# PROJECTS\ExtensionMethod\Extensiondupe\Extensiondupe\bin\Debug\Extensiondupe.pdb
+C:\Users\259813\Documents\C# PROJECTS\ExtensionMethod\Extensiondupe\Extensiondupe\bin\Debug\ClassLibrary1.dll
+C:\Users\259813\Documents\C# PROJECTS\ExtensionMethod\Extensiondupe\Extensiondupe\bin\Debug\ClassLibrary1.pdb
+C:\Users\259813\Documents\C# PROJECTS\ExtensionMethod\Extensiondupe\Extensiondupe\obj\Debug\Extensiondupe.csproj.AssemblyReference.cache
+C:\Users\259813\Documents\C# PROJECTS\ExtensionMethod\Extensiondupe\Extensiondupe\obj\Debug\Extensiondupe.csproj.CoreCompileInputs.cache
+C:\Users\259813\Documents\C# PROJECTS\ExtensionMethod\Extensiondupe\Extensiondupe\obj\Debug\Extensiondupe.csproj.CopyComplete
+C:\Users\259813\Documents\C# PROJECTS\ExtensionMethod\Extensiondupe\Extensiondupe\obj\Debug\Extensiondupe.exe
+C:\Users\259813\Documents\C# PROJECTS\ExtensionMethod\Extensiondupe\Extensiondupe\obj\Debug\Extensiondupe.pdb

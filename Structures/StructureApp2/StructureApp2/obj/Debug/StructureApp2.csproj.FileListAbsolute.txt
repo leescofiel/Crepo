@@ -1,0 +1,10 @@
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureApp2\StructureApp2\bin\Debug\StructureApp2.exe.config
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureApp2\StructureApp2\bin\Debug\StructureApp2.exe
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureApp2\StructureApp2\bin\Debug\StructureApp2.pdb
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureApp2\StructureApp2\bin\Debug\ClassLibrary1.dll
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureApp2\StructureApp2\bin\Debug\ClassLibrary1.pdb
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureApp2\StructureApp2\obj\Debug\StructureApp2.csproj.AssemblyReference.cache
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureApp2\StructureApp2\obj\Debug\StructureApp2.csproj.CoreCompileInputs.cache
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureApp2\StructureApp2\obj\Debug\StructureApp2.csproj.CopyComplete
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureApp2\StructureApp2\obj\Debug\StructureApp2.exe
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureApp2\StructureApp2\obj\Debug\StructureApp2.pdb

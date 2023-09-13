@@ -1,0 +1,10 @@
+C:\Users\259813\Documents\C# PROJECTS\Genric Pointers\GenricMethodExample\GenricMethodExample\bin\Debug\GenricMethodExample.exe.config
+C:\Users\259813\Documents\C# PROJECTS\Genric Pointers\GenricMethodExample\GenricMethodExample\bin\Debug\GenricMethodExample.exe
+C:\Users\259813\Documents\C# PROJECTS\Genric Pointers\GenricMethodExample\GenricMethodExample\bin\Debug\GenricMethodExample.pdb
+C:\Users\259813\Documents\C# PROJECTS\Genric Pointers\GenricMethodExample\GenricMethodExample\bin\Debug\ClassLibrary1.dll
+C:\Users\259813\Documents\C# PROJECTS\Genric Pointers\GenricMethodExample\GenricMethodExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\259813\Documents\C# PROJECTS\Genric Pointers\GenricMethodExample\GenricMethodExample\obj\Debug\GenricMethodExample.csproj.AssemblyReference.cache
+C:\Users\259813\Documents\C# PROJECTS\Genric Pointers\GenricMethodExample\GenricMethodExample\obj\Debug\GenricMethodExample.csproj.CoreCompileInputs.cache
+C:\Users\259813\Documents\C# PROJECTS\Genric Pointers\GenricMethodExample\GenricMethodExample\obj\Debug\GenricMethodExample.csproj.CopyComplete
+C:\Users\259813\Documents\C# PROJECTS\Genric Pointers\GenricMethodExample\GenricMethodExample\obj\Debug\GenricMethodExample.exe
+C:\Users\259813\Documents\C# PROJECTS\Genric Pointers\GenricMethodExample\GenricMethodExample\obj\Debug\GenricMethodExample.pdb

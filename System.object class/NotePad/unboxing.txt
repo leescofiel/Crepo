@@ -1,0 +1,5 @@
+//unboxing the value
+object obd = 20;
+
+//unboxing the ref type
+int y = (int)obd;

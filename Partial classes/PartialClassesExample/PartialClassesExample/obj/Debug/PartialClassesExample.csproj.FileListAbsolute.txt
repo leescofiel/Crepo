@@ -1,0 +1,10 @@
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\PartialClassesExample\PartialClassesExample\bin\Debug\PartialClassesExample.exe.config
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\PartialClassesExample\PartialClassesExample\bin\Debug\PartialClassesExample.exe
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\PartialClassesExample\PartialClassesExample\bin\Debug\PartialClassesExample.pdb
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\PartialClassesExample\PartialClassesExample\bin\Debug\ClassLibrary1.dll
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\PartialClassesExample\PartialClassesExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\PartialClassesExample\PartialClassesExample\obj\Debug\PartialClassesExample.csproj.AssemblyReference.cache
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\PartialClassesExample\PartialClassesExample\obj\Debug\PartialClassesExample.csproj.CoreCompileInputs.cache
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\PartialClassesExample\PartialClassesExample\obj\Debug\PartialClassesExample.csproj.CopyComplete
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\PartialClassesExample\PartialClassesExample\obj\Debug\PartialClassesExample.exe
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\PartialClassesExample\PartialClassesExample\obj\Debug\PartialClassesExample.pdb

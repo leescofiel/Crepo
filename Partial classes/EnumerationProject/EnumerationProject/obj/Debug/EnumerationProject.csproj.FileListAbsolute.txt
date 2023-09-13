@@ -1,0 +1,10 @@
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\EnumerationProject\EnumerationProject\bin\Debug\EnumerationProject.exe.config
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\EnumerationProject\EnumerationProject\bin\Debug\EnumerationProject.exe
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\EnumerationProject\EnumerationProject\bin\Debug\EnumerationProject.pdb
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\EnumerationProject\EnumerationProject\bin\Debug\ClassLibrary1.dll
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\EnumerationProject\EnumerationProject\bin\Debug\ClassLibrary1.pdb
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\EnumerationProject\EnumerationProject\obj\Debug\EnumerationProject.csproj.AssemblyReference.cache
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\EnumerationProject\EnumerationProject\obj\Debug\EnumerationProject.csproj.CoreCompileInputs.cache
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\EnumerationProject\EnumerationProject\obj\Debug\EnumerationProject.csproj.CopyComplete
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\EnumerationProject\EnumerationProject\obj\Debug\EnumerationProject.exe
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\EnumerationProject\EnumerationProject\obj\Debug\EnumerationProject.pdb

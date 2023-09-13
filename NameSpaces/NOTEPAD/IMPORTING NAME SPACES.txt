@@ -1,0 +1,13 @@
+using HR.Mgr;
+using FrontOffice;
+
+class Program
+{
+    static void Main()
+    {
+       Manager manager;
+        manager=new Manager();
+
+        FrontOffice.FrontOfficeExecutive executive = new FrontOffice.FrontOfficeExecutive();
+    }
+}

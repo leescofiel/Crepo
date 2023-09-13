@@ -1,0 +1,14 @@
+//method in parent class
+public string GetHealthInsurance()
+{
+    return "heath insurance amount is:" + 5000;
+}
+--------------------------
+MANAGER:
+METHOD HIDING USE NEW KEYWORD:
+
+    //method hiding 
+    public new string GetHealthInsurance()
+    {
+        return "heath insurance amount is:1500";
+    }

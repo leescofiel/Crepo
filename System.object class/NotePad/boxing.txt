@@ -1,0 +1,9 @@
+       int x = 10;
+
+        //boxing the valuye
+        object obj = x;
+
+        System.Console.WriteLine(obj);
+        System.Console.WriteLine(x);
+
+        System.Console.ReadKey();

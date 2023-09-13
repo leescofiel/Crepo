@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DumyInterface", "DumyInterface\DumyInterface.csproj", "{B6FF7921-C1CF-44BA-8C96-93D41DF20F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{0D6C3878-6BA3-4C07-911A-8934828F4497}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6FF7921-C1CF-44BA-8C96-93D41DF20F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FF7921-C1CF-44BA-8C96-93D41DF20F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FF7921-C1CF-44BA-8C96-93D41DF20F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FF7921-C1CF-44BA-8C96-93D41DF20F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6C3878-6BA3-4C07-911A-8934828F4497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6C3878-6BA3-4C07-911A-8934828F4497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6C3878-6BA3-4C07-911A-8934828F4497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6C3878-6BA3-4C07-911A-8934828F4497}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEB286B5-F365-4DA7-B648-BCD9243A765E}
+	EndGlobalSection
+EndGlobal

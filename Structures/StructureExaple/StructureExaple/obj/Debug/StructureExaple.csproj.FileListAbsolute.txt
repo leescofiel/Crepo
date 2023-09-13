@@ -1,0 +1,10 @@
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureExaple\StructureExaple\bin\Debug\StructureExaple.exe.config
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureExaple\StructureExaple\bin\Debug\StructureExaple.exe
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureExaple\StructureExaple\bin\Debug\StructureExaple.pdb
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureExaple\StructureExaple\bin\Debug\ClassLibrary1.dll
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureExaple\StructureExaple\bin\Debug\ClassLibrary1.pdb
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureExaple\StructureExaple\obj\Debug\StructureExaple.csproj.AssemblyReference.cache
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureExaple\StructureExaple\obj\Debug\StructureExaple.csproj.CoreCompileInputs.cache
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureExaple\StructureExaple\obj\Debug\StructureExaple.csproj.CopyComplete
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureExaple\StructureExaple\obj\Debug\StructureExaple.exe
+C:\Users\259813\Documents\C# PROJECTS\Structures\StructureExaple\StructureExaple\obj\Debug\StructureExaple.pdb

@@ -1,0 +1,53 @@
+Exension Methods
+CLASS IN PROGRAM CLASS
+PRODICT EXTENSION.CS
+
+using ClassLibrary1;
+using System;
+
+
+namespace ExtensionMethodData
+{
+    //static class for the method
+    public static class ProductExtensions{
+        public static double GetDiscount(this Product product)
+        {
+            return product.ProductCost * product.DiscountPercentage / 100;
+        }
+        }
+}
+-----------------------------------------------------
+CLASS1.CS
+using System;
+
+namespace ClassLibrary1
+{
+    //target class
+    public class Product
+    {
+        //properties
+
+        public double ProductCost { get; set; }
+        public double DiscountPercentage { get; set; }
+    }
+}
+--------------------------
+PROGRAM.CS
+using ClassLibrary1;
+using ExtensionMethodData;
+
+namespace ExtensionMethod
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //create object
+            Product product = new Product() { DiscountPercentage=10,ProductCost=1000};
+            System.Console.WriteLine(product.GetDiscount());
+            System.Console.ReadKey();
+        }
+    }
+}
+------------------------------------
+

@@ -1,0 +1,220 @@
+IEMPLOYEEE.CS
+public interface IEmployee
+{
+    //no fields methods in interface
+
+    //abstract method
+    string GetHealthInsurance();
+    int GetAge();
+
+
+    //properties
+    int EmployeeID
+    {
+        set;
+        get;
+    }
+    string EmployeeName
+    {
+        get;
+        set;
+    }
+    string Location
+    {
+        get;
+        set;
+    }
+
+}
+------------------
+IPERSON.CS
+
+ public interface Iperson
+{
+  
+
+    int GetAge();
+}
+---------------
+MANAGER.CS
+public class Manager : IEmployee,Iperson
+{
+    //field
+    private string _department;
+    private int _empID;
+    private string _empName;
+    private string _location;
+  
+    public int EmployeeID
+    {
+        set
+        {
+            if (value >= 10000 && value <= 2000)
+            {
+                _empID = value;
+            }
+
+        }
+        get { return _empID; }
+    }
+    public string Location
+    {
+        set { _location = value; }
+        get { return _location; }
+    }
+    public string EmployeeName
+    {
+        set { _empName = value; }
+        get { return _empName; }
+    }
+   
+
+   
+    //cons child
+    public Manager(int empID, string empName, string location, string department)
+    {
+        _department = department;
+    }
+
+
+    //method implementation
+    public string GetHealthInsurance()
+    {
+
+        return "heath insurance amount is:1500";
+    }
+    //method
+    public long GetTotaalSalesYear()
+    {
+        return 1000;
+    }
+
+    //method for Iperson.GetAge() method
+     int Iperson.GetAge()
+    {
+
+        return 20;
+    }
+
+    //method for IEmployee.GetAge() method
+    int IEmployee.GetAge()
+    {
+        return 40;
+    }
+
+
+}
+----------------------
+SALESMAN.CS
+public class SalesMan : IEmployee, Iperson
+{
+    //fields
+    private string _region;
+    private int _empID;
+    private string _empName;
+    private string _location;
+
+    //properties
+    public int EmployeeID
+    {
+        set
+        {
+            if (value >= 500 && value < 1000)
+            {
+                _empID = value;
+            }
+        }
+        get { return _empID; }
+    }
+    public string Location
+    {
+        set { _location = value; }
+        get { return _location; }
+    }
+    public string EmployeeName
+    {
+        set { _empName = value; }
+        get { return _empName; }
+    }
+
+    //constructor for salesman
+    public SalesMan(int empID, string empName, string location, string region)
+    {
+        _empID = empID;
+        _empName = empName;
+        _location = location;
+        _region = region;
+    }
+
+    //method overriding the abstract method 
+    public string GetHealthInsurance()
+    {
+
+        return "heath insurance amount is:500";
+    }
+
+    //property
+    public string Region
+    {
+        get { return _region; }
+        set { _region = value; }
+    }
+
+    //method
+    public long GetSalesOfTheCurrentMonth()
+    {
+        return 10000;
+    }
+    public int GetAge()
+    {
+
+        return 20;
+    }
+}
+--------------
+PROGRAM.CS
+using Microsoft.Win32;
+
+class Program
+{
+    static void Main()
+    {
+        /// create reference variavle of abstract class
+        IEmployee emp;
+        emp = new Manager(103, "aswin", "lee", "astro");
+        emp.GetAge();
+        System.Console.WriteLine(emp.GetAge());
+        System.Console.WriteLine(emp.GetHealthInsurance());
+        
+        
+
+        //Iperson interface
+
+        Iperson person;
+
+        person=new Manager(102,"aswin","lee","east");
+     person.GetAge();
+        System.Console.WriteLine();
+
+
+        System.Console.WriteLine(person.GetAge());
+        System.Console.WriteLine();
+
+
+
+
+      
+
+
+        //create object
+       emp= new SalesMan(103,"deva","ranodm","weather");
+      
+        System.Console.WriteLine(emp.GetHealthInsurance());
+        System.Console.WriteLine();
+
+
+        System.Console.ReadKey();
+
+
+    }
+}

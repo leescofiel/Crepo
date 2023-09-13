@@ -1,0 +1,48 @@
+CLASS.CS
+using System;
+
+
+namespace ClassLibrary1
+{
+    //parent class
+    public class ParentClass
+    {
+        public int x { get; set; }
+    }
+
+    //child class
+    public class ChildClass : ParentClass
+    {
+        public int y { get; set; }
+    }
+}
+-----------------------------------------
+PROGRAM.CS
+using System;
+using ClassLibrary1;
+
+namespace PatternMatching
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //reference variable
+            ParentClass pc;
+
+            //object of child
+            pc = new ChildClass() { x = 10, y = 20 };
+
+            //acess parent class
+
+          if(pc is ChildClass)
+            {
+                ChildClass cc = (ChildClass)pc;
+                Console.WriteLine(cc.x);
+                Console.WriteLine(cc.y);
+            }
+
+            Console.ReadKey();
+        }
+    }
+}

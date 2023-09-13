@@ -1,0 +1,36 @@
+CLASS.CS
+//genric class 
+
+public class User<T,T2>
+{
+    //genric field
+    public T Regsiter;
+    public T data;
+
+    //another genric fields
+    public T2 Age;
+}
+--------------------------
+PROGRAM.CS
+class Program
+{
+    static void Main()
+    {
+        //creating obj
+        User<int,int> user = new User<int,int>();
+        User<bool,string> user2 = new User<bool,string>();
+
+
+        //set values to the genric fields
+        user.Regsiter = 1234;
+        user2.Regsiter = true;
+        user.Age = 10;
+        user2.Age = "20-30";
+        System.Console.WriteLine(user.Regsiter);
+        System.Console.WriteLine(user2.Regsiter);
+        System.Console.WriteLine(user.Age);
+        System.Console.WriteLine(user2.Age);
+        System.Console.ReadKey();
+
+    }
+}

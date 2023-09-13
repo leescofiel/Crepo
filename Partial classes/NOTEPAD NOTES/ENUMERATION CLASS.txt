@@ -1,0 +1,33 @@
+PERSON.CS
+public class Person
+{
+    public string PersonName { get; set; }
+    public string Email { get; set; }
+    public AgeGroupEnumeration AgeGroup { get; set; } 
+
+}
+
+public enum AgeGroupEnumeration:short 
+{
+    child=100,
+    teenager,
+    adult=100,
+    senior
+}
+--------------------------------------
+PROGRAM.CS
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        //create object of person
+        Person person = new Person();
+        person.PersonName = "john";
+        person.Email = "jhon@gmail.com";
+        person.AgeGroup = AgeGroupEnumeration.child;
+        Console.WriteLine(person.AgeGroup);
+        Console.ReadKey();
+    }
+}

@@ -1,0 +1,13 @@
+ //method in parent class
+ public virtual string GetHealthInsurance()
+ {
+     return "heath insurance amount is:" + 5000;
+ }
+----------------------------------
+MAANGER
+  //method overriding
+  public override string GetHealthInsurance()
+  {
+     System.Console.WriteLine( base.GetHealthInsurance());
+      return "heath insurance amount is:1500";
+  }

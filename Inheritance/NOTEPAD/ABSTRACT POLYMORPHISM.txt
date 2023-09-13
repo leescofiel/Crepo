@@ -1,0 +1,144 @@
+DYNAMIC POLY FOR ABSTRACT CLASS:
+IEMPLOYEEE.CS:
+public abstract class IEmployee
+{
+    //fields
+    private int _empID;
+    private string _empName;
+    protected string _location;
+
+    //constructor
+    public IEmployee(int empId, string empName, string location)
+    {
+        this._empID = empId;
+        this._empName = empName;
+        this._location = location;
+
+
+    }
+
+    //method in parent class
+    public abstract string GetHealthInsurance();
+
+    //properties
+    public int EmployeeID
+    {
+        get { return _empID; }
+        set { _empID = value; }
+    }
+    public string EmployeeName
+    {
+        get { return _empName; }
+        set { _empName = value; }
+    }
+    public string Location
+    {
+        get { return _location; }
+        set { _location = value; }
+    }
+
+}
+--------------------------------------
+MANAGER.CS
+public class Manager : IEmployee
+{
+    //field
+    private string _department;
+
+    //cons child
+    public Manager(int empID, string empName, string location, string department) : base(empID, empName, location)
+    {
+        this.Department = department;
+    }
+
+
+    //method overriding
+    public  override string GetHealthInsurance()
+    {
+        return "heath insurance amount is:1500";
+    }
+
+    //property
+    public string Department
+    {
+        get { return _department; }
+        set { _department = value; }
+    }
+    //method
+    public long GetTotaalSalesYear()
+    {
+        return 1000;
+    }
+
+    //method 
+    public string GetFullDepartmentName()
+    {
+        return Department + "at" + base._location;
+    }
+}
+----------------------------------------
+SALESMAN.CS
+public class SalesMan : IEmployee
+{
+    //fields
+    private string _region;
+
+    //constructor for salesman
+    public SalesMan(int empID, string empName, string location, string region) : base(empID, empName, location)
+    {
+        this._region = region;
+    }
+    //property
+    public string Region
+    {
+        get { return _region; }
+        set { _region = value; }
+    }
+    //method overriding
+    public override string GetHealthInsurance()
+    {
+        return "enada 1700";
+    }
+    //method
+    public long GetSalesOfTheCurrentMonth()
+    {
+        return 10000;
+    }
+}
+
+-----------------------------------------------------
+PROGRAM.CS
+using Microsoft.Win32;
+
+class Program
+{
+    static void Main()
+    {
+        /// create reference variavle of abstract class
+        IEmployee emp;
+
+
+
+        //create object
+        emp = new Manager(102,"aswin","lee","east");
+        
+     
+        System.Console.WriteLine(emp.GetHealthInsurance());
+        System.Console.WriteLine();
+
+
+        //create object
+       emp= new SalesMan(103,"deva","ranodm","weather");
+      
+        System.Console.WriteLine(emp.GetHealthInsurance());
+        System.Console.WriteLine();
+
+
+        System.Console.ReadKey();
+
+
+    }
+}
+LeeAswin@123#M
+AswinLee@123#M
+AswinLee@123#M

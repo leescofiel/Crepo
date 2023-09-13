@@ -1,0 +1,180 @@
+EMPLOYEE:
+
+public interface IEmployee { 
+    //no fields methods in interface
+
+    //abstract method
+     string GetHealthInsurance();
+    
+
+    //properties
+    int EmployeeID
+    {
+        set;
+        get;
+    }
+   string EmployeeName
+    {
+        get;
+        set;
+    }
+ string Location
+    {
+        get;
+        set;
+    }
+
+}
+--------------------------------------
+MANAGER.CA
+public class Manager : IEmployee
+{
+    //field
+    private string _department;
+    private int _empID;
+    private string _empName;
+    private string _location;
+
+    //properties
+    public int EmpID
+    {
+        set {
+            if(value >= 10000 && value <= 2000)
+            {
+                _empID = value;
+            }
+            
+        }
+        get { return _empID; }
+    }
+    public string Location
+    {
+        set { _location = value; }
+        get { return _location; }
+    }
+    public string EmpName
+    {
+        set { _empName = value; }
+        get { return _empName; }
+    }
+
+    //cons child
+    public Manager(int empID,string empName,string location,string department)
+    {
+       _department = department;
+    }
+
+
+    //method implementation
+    public  string GetHealthInsurance()
+    {
+       
+        return "heath insurance amount is:1500";
+    }
+    //method
+    public long GetTotaalSalesYear()
+    {
+        return 1000;
+    }
+
+    
+}
+-------------------------------------
+SALESMAN:
+public class SalesMan : IEmployee
+{
+    //fields
+    private string _region;
+    private int _empID;
+    private string _empName;
+    private string _location;
+
+    //properties
+    public int EmpID
+    {
+        set {
+            if (value >= 500 && value < 1000)
+            {
+                _empID = value;
+            }
+        }
+        get { return _empID; }
+    }
+    public string Location
+    {
+        set { _location = value; }
+        get { return _location; }
+    }
+    public string EmpName
+    {
+        set { _empName = value; }
+        get { return _empName; }
+    }
+
+    //constructor for salesman
+    public SalesMan(int empID, string empName, string location,string region)
+    {
+        _empID = empID;
+        _empName = empName;
+        _location = location;
+        _region=region;
+    }
+
+    //method overriding the abstract method 
+    public  string GetHealthInsurance()
+    {
+
+        return "heath insurance amount is:500";
+    }
+
+    //property
+    public string Region
+    {
+        get { return _region; }
+        set { _region = value; }
+    }
+
+    //method
+    public long GetSalesOfTheCurrentMonth()
+    {
+        return 10000;
+    }
+}
+------------------------------
+PROGRAM.CS
+using Microsoft.Win32;
+
+class Program
+{
+    static void Main()
+    {
+        
+
+
+        //create object
+        Manager mgr1 = new Manager(102,"aswin","lee","east");
+        System.Console.WriteLine("object of parent class");
+        System.Console.WriteLine(mgr1.EmployeeID);
+        System.Console.WriteLine(mgr1.EmployeeName);
+        System.Console.WriteLine(mgr1.Location);
+        System.Console.WriteLine(mgr1.GetTotaalSalesYear());
+        System.Console.WriteLine(mgr1.GetFullDepartmentName());
+        System.Console.WriteLine(mgr1.GetHealthInsurance());
+        System.Console.WriteLine();
+
+
+        //create object
+        SalesMan s1= new SalesMan(103,"deva","ranodm","weather");
+        System.Console.WriteLine("object of parent class");
+        System.Console.WriteLine(s1.EmployeeID);
+        System.Console.WriteLine(s1.EmployeeName);
+        System.Console.WriteLine(s1.Location);
+        System.Console.WriteLine(s1.Region);
+        System.Console.WriteLine(s1.GetHealthInsurance());
+
+
+        System.Console.ReadKey();
+
+
+    }
+}

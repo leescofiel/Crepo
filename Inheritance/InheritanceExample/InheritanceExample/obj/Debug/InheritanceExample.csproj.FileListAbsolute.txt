@@ -1,0 +1,10 @@
+C:\Users\259813\Documents\C# PROJECTS\Inheritance\InheritanceExample\InheritanceExample\bin\Debug\InheritanceExample.exe.config
+C:\Users\259813\Documents\C# PROJECTS\Inheritance\InheritanceExample\InheritanceExample\bin\Debug\InheritanceExample.exe
+C:\Users\259813\Documents\C# PROJECTS\Inheritance\InheritanceExample\InheritanceExample\bin\Debug\InheritanceExample.pdb
+C:\Users\259813\Documents\C# PROJECTS\Inheritance\InheritanceExample\InheritanceExample\bin\Debug\ClassLibrary1.dll
+C:\Users\259813\Documents\C# PROJECTS\Inheritance\InheritanceExample\InheritanceExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\259813\Documents\C# PROJECTS\Inheritance\InheritanceExample\InheritanceExample\obj\Debug\InheritanceExample.csproj.AssemblyReference.cache
+C:\Users\259813\Documents\C# PROJECTS\Inheritance\InheritanceExample\InheritanceExample\obj\Debug\InheritanceExample.csproj.CoreCompileInputs.cache
+C:\Users\259813\Documents\C# PROJECTS\Inheritance\InheritanceExample\InheritanceExample\obj\Debug\InheritanceExample.csproj.CopyComplete
+C:\Users\259813\Documents\C# PROJECTS\Inheritance\InheritanceExample\InheritanceExample\obj\Debug\InheritanceExample.exe
+C:\Users\259813\Documents\C# PROJECTS\Inheritance\InheritanceExample\InheritanceExample\obj\Debug\InheritanceExample.pdb

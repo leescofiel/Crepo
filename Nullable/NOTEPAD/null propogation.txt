@@ -1,0 +1,22 @@
+using nameSpace1;
+using System;
+
+namespace nameSpace1
+{
+class person
+    {
+       public int Age;
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        person p1=new person() { Age=30};
+
+        System.Console.WriteLine((p1 ==null)?null:Convert.ToString(p1.Age));
+        System.Console.WriteLine(p1?.Age);
+        System.Console.ReadKey();
+    }
+}

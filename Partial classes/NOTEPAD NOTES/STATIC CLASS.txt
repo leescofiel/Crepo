@@ -1,0 +1,25 @@
+CLASS1.CS
+public static class Country
+{
+    public static string CountryName = "india";
+    public static int NoofStates = 28;
+    public static int GetNoofUnionTeritories()
+    {
+        return 8;
+    }
+}
+
+----------------------------
+PROGRAM.CS
+using System;
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine(Country.CountryName);
+        Console.WriteLine(Country.NoofStates);
+        Console.WriteLine(Country.GetNoofUnionTeritories());
+
+        Console.ReadKey();
+    }
+}

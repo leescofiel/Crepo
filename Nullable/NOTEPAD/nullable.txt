@@ -1,0 +1,27 @@
+class person
+    {
+        public Nullable< int> noOfChildren;
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        //create obj
+        person person = new person() { noOfChildren=2};
+        person p2=new person() { noOfChildren = null };
+        person p3 = null;
+
+        System.Console.WriteLine(person.noOfChildren);
+        if(p2.noOfChildren.HasValue)
+        {
+            int x = p2.noOfChildren.Value;
+            System.Console.WriteLine(x);
+        }
+        
+       
+
+        System.Console.ReadKey();
+    }
+}

@@ -1,0 +1,90 @@
+FRONTOFFICE.CS
+namespace FrontOffice
+{
+   
+
+    //class that represents an enquiry by customer
+
+    public class CustomerEnquiry
+    {
+
+    }
+}
+---------------------
+CUSTOMERENQUIRY.CS
+namespace Frontoffice
+{
+    //class that represents an enquiry by customer
+
+    public class CustomerEnquiry
+    {
+
+    }
+}
+---------------------------------
+FRONTOFFICEEXECUTIVE.CS
+namespace FrontOffice
+{
+    //class that represents an executie to deal with customer
+    public class FrontOfficeExecutive
+    {
+
+
+    }
+}
+----------------
+HR.CS
+namespace HR
+{
+    //interface that represnets an employee org
+    public interface IEmployee
+    {
+
+    }
+
+    //interface that represents a manager which inherits from IEmployee
+    public interface IManager : IEmployee
+    {
+
+    }
+
+    //interface that represents an executive,which inherits from IEmployee
+    public interface IExecutive : IEmployee
+    {
+
+    }
+
+    //class that represents a manager which inherits from IManager
+    public class Manager : IManager
+    {
+
+    }
+
+    //class that represents a manager which inherits from IManager
+    public class AsstManager : IManager
+    {
+
+    }
+
+    //class that represents a manager which inherits from IManager
+    public class Executive : IExecutive
+    {
+
+    }
+}
+-------------------------
+PROGRAM.CS
+
+class Program
+{
+    static void Main()
+    {
+        HR.Manager manager;
+        manager=new HR.Manager();
+
+        FrontOffice.FrontOfficeExecutive executive = new FrontOffice.FrontOfficeExecutive();
+    }
+}
+-----------------------------
+NAME SPACE FOR DIFFRENT CLASS WITH SAME NAME SPACE CAN BE ACSSED IN THE PARENT CLASS
+

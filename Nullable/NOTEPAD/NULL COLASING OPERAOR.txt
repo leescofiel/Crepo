@@ -1,0 +1,32 @@
+using nameSpace1;
+using System;
+
+namespace nameSpace1
+{
+class person
+    {
+        public Nullable< int> noOfChildren;
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        //create obj
+        person person = new person() { noOfChildren=2};
+        person p2=new person() { noOfChildren = null };
+        person p3 = null;
+
+        System.Console.WriteLine(person.noOfChildren);
+        
+         
+            System.Console.WriteLine((p2.noOfChildren.HasValue)?p2.noOfChildren.Value:0);
+        System.Console.WriteLine(p2.noOfChildren ?? 0);
+        
+        
+       
+
+        System.Console.ReadKey();
+    }
+}

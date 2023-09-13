@@ -1,0 +1,10 @@
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\StaticClassesExample\StaticClassesExample\bin\Debug\StaticClassesExample.exe.config
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\StaticClassesExample\StaticClassesExample\bin\Debug\StaticClassesExample.exe
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\StaticClassesExample\StaticClassesExample\bin\Debug\StaticClassesExample.pdb
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\StaticClassesExample\StaticClassesExample\bin\Debug\ClassLibrary1.dll
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\StaticClassesExample\StaticClassesExample\bin\Debug\ClassLibrary1.pdb
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\StaticClassesExample\StaticClassesExample\obj\Debug\StaticClassesExample.csproj.AssemblyReference.cache
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\StaticClassesExample\StaticClassesExample\obj\Debug\StaticClassesExample.csproj.CoreCompileInputs.cache
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\StaticClassesExample\StaticClassesExample\obj\Debug\StaticClassesExample.csproj.CopyComplete
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\StaticClassesExample\StaticClassesExample\obj\Debug\StaticClassesExample.exe
+C:\Users\259813\Documents\C# PROJECTS\Partial classes\StaticClassesExample\StaticClassesExample\obj\Debug\StaticClassesExample.pdb

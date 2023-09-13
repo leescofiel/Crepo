@@ -1,0 +1,112 @@
+PARENT CS:
+using Microsoft.Win32;
+
+class Program
+{
+    static void Main()
+    {
+        //create object
+        Employee emp1= new Employee();
+        emp1.EmployeeID = 101;
+        emp1.EmployeeName = "scott";
+        emp1.Location = "chennai";
+        System.Console.WriteLine("object of parent class");
+        System.Console.WriteLine(emp1.EmployeeID);
+        System.Console.WriteLine(emp1.EmployeeName);
+        System.Console.WriteLine(emp1.Location);
+
+        //create object
+        Manager mgr1 = new Manager();
+        mgr1.EmployeeID = 101;
+        mgr1.EmployeeName = "scott";
+        mgr1.Location = "chennai";
+        mgr1.Department = "css";
+        System.Console.WriteLine("object of parent class");
+        System.Console.WriteLine(mgr1.EmployeeID);
+        System.Console.WriteLine(mgr1.EmployeeName);
+        System.Console.WriteLine(mgr1.Location);
+
+
+        //create object
+        SalesMan s1= new SalesMan();
+        s1.EmployeeID = 101;
+        s1.EmployeeName = "scott";
+        s1.Location = "chennai";
+        s1.Region = "east";
+        System.Console.WriteLine("object of parent class");
+        System.Console.WriteLine(s1.EmployeeID);
+        System.Console.WriteLine(s1.EmployeeName);
+        System.Console.WriteLine(s1.Location);
+        System.Console.WriteLine(s1.Region);
+
+        System.Console.ReadKey();
+
+
+    }
+}
+------------------------------------------
+EMPLOYEE.CS
+public class Employee
+{
+    //fields
+    private int _empID;
+    private string _empName;
+    private string _location;
+
+    //properties
+    public int EmployeeID
+    {
+        get { return _empID; }
+        set { _empID = value; }
+    }
+    public string EmployeeName
+    {
+        get { return _empName; }
+        set { _empName = value; }
+    }
+    public string Location
+    {
+        get { return _location; }
+        set { _location = value; }
+    }
+
+}
+--------------------------------
+MANAGER.CS
+public class Manager : Employee
+{
+    //field
+    private string _department;
+
+    //property
+    public string Department
+    {
+        get { return _department; }
+        set { _department = value; }
+    }
+    //method
+    public long GetTotaalSalesYear()
+    {
+        return 1000;
+    }
+}
+-----------------------------------
+SalesMan.CS
+public class SalesMan : Employee
+{
+    //fields
+    private string _region;
+
+    //property
+    public string Region
+    {
+        get { return _region; }
+        set { _region = value; }
+    }
+
+    //method
+    public long GetSalesOfTheCurrentMonth()
+    {
+        return 10000;
+    }
+}
