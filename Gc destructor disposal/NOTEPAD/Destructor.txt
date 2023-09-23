@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ClassLibrary1
+{
+    public class Sample
+    {
+        //constructor
+        public Sample()
+        {
+            //filr & db connection
+            Console.WriteLine("file is opened");
+
+        }
+        //destructor
+        ~Sample()
+        {
+            Console.Write("destructor is executed");
+        }
+    }
+}
+------------------------------------
+PROGRAM.CS
+using Microsoft.Win32;
+using System;
+using ClassLibrary1;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Sample s = new Sample();
+
+        }//destructor gets called
+    }
+}

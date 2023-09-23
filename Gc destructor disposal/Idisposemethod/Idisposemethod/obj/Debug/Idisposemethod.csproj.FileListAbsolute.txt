@@ -1,0 +1,10 @@
+C:\Users\259813\Documents\CPROJECTS\Gc destructor disposal\Idisposemethod\Idisposemethod\bin\Debug\Idisposemethod.exe.config
+C:\Users\259813\Documents\CPROJECTS\Gc destructor disposal\Idisposemethod\Idisposemethod\bin\Debug\Idisposemethod.exe
+C:\Users\259813\Documents\CPROJECTS\Gc destructor disposal\Idisposemethod\Idisposemethod\bin\Debug\Idisposemethod.pdb
+C:\Users\259813\Documents\CPROJECTS\Gc destructor disposal\Idisposemethod\Idisposemethod\bin\Debug\ClassLibrary1.dll
+C:\Users\259813\Documents\CPROJECTS\Gc destructor disposal\Idisposemethod\Idisposemethod\bin\Debug\ClassLibrary1.pdb
+C:\Users\259813\Documents\CPROJECTS\Gc destructor disposal\Idisposemethod\Idisposemethod\obj\Debug\Idisposemethod.csproj.AssemblyReference.cache
+C:\Users\259813\Documents\CPROJECTS\Gc destructor disposal\Idisposemethod\Idisposemethod\obj\Debug\Idisposemethod.csproj.CoreCompileInputs.cache
+C:\Users\259813\Documents\CPROJECTS\Gc destructor disposal\Idisposemethod\Idisposemethod\obj\Debug\Idisposemethod.csproj.CopyComplete
+C:\Users\259813\Documents\CPROJECTS\Gc destructor disposal\Idisposemethod\Idisposemethod\obj\Debug\Idisposemethod.exe
+C:\Users\259813\Documents\CPROJECTS\Gc destructor disposal\Idisposemethod\Idisposemethod\obj\Debug\Idisposemethod.pdb

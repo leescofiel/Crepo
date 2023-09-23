@@ -1,0 +1,10 @@
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\InnerClass\InnerClass\bin\Debug\InnerClass.exe.config
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\InnerClass\InnerClass\bin\Debug\InnerClass.exe
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\InnerClass\InnerClass\bin\Debug\InnerClass.pdb
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\InnerClass\InnerClass\bin\Debug\ClassLibrary1.dll
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\InnerClass\InnerClass\bin\Debug\ClassLibrary1.pdb
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\InnerClass\InnerClass\obj\Debug\InnerClass.csproj.AssemblyReference.cache
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\InnerClass\InnerClass\obj\Debug\InnerClass.csproj.CoreCompileInputs.cache
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\InnerClass\InnerClass\obj\Debug\InnerClass.csproj.CopyComplete
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\InnerClass\InnerClass\obj\Debug\InnerClass.exe
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\InnerClass\InnerClass\obj\Debug\InnerClass.pdb

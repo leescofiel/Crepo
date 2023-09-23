@@ -1,0 +1,71 @@
+SAMPLE .CS
+using System;
+
+
+namespace ClassLibrary1
+{
+    public class Sample
+    {
+        //target method 1
+        public void Add(double a,double b)
+        {
+            double c = a + b;
+            Console.WriteLine("addition is:"+c);
+        }
+
+        //target method 2
+        public void Multiply(double a ,double b)
+        {
+            double c = a * b;
+            Console.WriteLine("multiplication is:"+ c);
+        }
+    }
+}
+--------------------------------
+MY DELEGATE .CS
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ClassLibrary1
+{
+    //delegate type
+    public delegate void MyDelegate(double a, double b);
+}
+-----------------------------
+PROGRAM.CS
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ClassLibrary1;
+
+namespace MultiCastDelegates
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //creating object of sample 
+            Sample s=new Sample();
+
+            //create reference
+            MyDelegate mydelegatetype;
+
+            //add reference from method
+            mydelegatetype = s.Add;
+
+            //add reference for the multiply
+            mydelegatetype += s.Multiply;
+
+            //invoking both method
+            mydelegatetype.Invoke(40, 10);
+
+            Console.ReadKey();
+        }
+    }
+}

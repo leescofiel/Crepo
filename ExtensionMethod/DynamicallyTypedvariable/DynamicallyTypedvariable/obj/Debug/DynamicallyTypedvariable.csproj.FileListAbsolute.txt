@@ -1,0 +1,7 @@
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\DynamicallyTypedvariable\DynamicallyTypedvariable\bin\Debug\DynamicallyTypedvariable.exe.config
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\DynamicallyTypedvariable\DynamicallyTypedvariable\bin\Debug\DynamicallyTypedvariable.exe
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\DynamicallyTypedvariable\DynamicallyTypedvariable\bin\Debug\DynamicallyTypedvariable.pdb
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\DynamicallyTypedvariable\DynamicallyTypedvariable\obj\Debug\DynamicallyTypedvariable.csproj.AssemblyReference.cache
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\DynamicallyTypedvariable\DynamicallyTypedvariable\obj\Debug\DynamicallyTypedvariable.csproj.CoreCompileInputs.cache
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\DynamicallyTypedvariable\DynamicallyTypedvariable\obj\Debug\DynamicallyTypedvariable.exe
+C:\Users\259813\Documents\CPROJECTS\ExtensionMethod\DynamicallyTypedvariable\DynamicallyTypedvariable\obj\Debug\DynamicallyTypedvariable.pdb

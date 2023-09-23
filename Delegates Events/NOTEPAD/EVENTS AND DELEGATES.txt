@@ -1,0 +1,91 @@
+PUBLISHER.CS
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ClassLibrary1
+{
+    //delegate type
+    public delegate void MyDelegate(int a, int b);
+    public class Publisher
+    {
+        //private delegate creation
+        private MyDelegate myDelegate;
+        //step 1:create an event
+        public event MyDelegate myEvent
+        {
+            add
+            {
+                myDelegate += value;
+            }
+            remove
+            {
+                myDelegate -= value;
+            }
+        }
+
+        public void RaiseEvent(int a,int b)
+        {
+            //step2:raise event
+            if(this.myDelegate != null)
+            {
+                this.myDelegate(a, b);
+            }
+           
+        }
+    }
+}
+--------------------
+SUBSCIBER.CS
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ClassLibrary1;
+
+namespace EventsExample
+{
+    public  class Subscriber
+    {
+        //target method
+        public void Add(int a, int b)
+        {
+            Console.WriteLine(a + b);
+        }
+    }
+}
+---------------------------
+PROGRAM.CS
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ClassLibrary1;
+
+namespace EventsExample
+{
+    internal class Program
+    {
+        static void Main()
+        {
+
+            //create obj of sub class
+            Subscriber subscriber = new Subscriber();
+
+            //create obj for publsiher class
+            Publisher publisher = new Publisher();
+
+            //handle evet
+            publisher.myEvent += subscriber.Add;
+
+            //invoke the ev
+            publisher.RaiseEvent(10, 20);
+
+            Console.ReadKey();
+        }
+    }
+}

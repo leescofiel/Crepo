@@ -1,0 +1,10 @@
+C:\Users\259813\Documents\CPROJECTS\Delegates Events\CreatingDelegates\CreatingDelegates\bin\Debug\CreatingDelegates.exe.config
+C:\Users\259813\Documents\CPROJECTS\Delegates Events\CreatingDelegates\CreatingDelegates\bin\Debug\CreatingDelegates.exe
+C:\Users\259813\Documents\CPROJECTS\Delegates Events\CreatingDelegates\CreatingDelegates\bin\Debug\CreatingDelegates.pdb
+C:\Users\259813\Documents\CPROJECTS\Delegates Events\CreatingDelegates\CreatingDelegates\bin\Debug\ClassLibrary1.dll
+C:\Users\259813\Documents\CPROJECTS\Delegates Events\CreatingDelegates\CreatingDelegates\bin\Debug\ClassLibrary1.pdb
+C:\Users\259813\Documents\CPROJECTS\Delegates Events\CreatingDelegates\CreatingDelegates\obj\Debug\CreatingDelegates.csproj.AssemblyReference.cache
+C:\Users\259813\Documents\CPROJECTS\Delegates Events\CreatingDelegates\CreatingDelegates\obj\Debug\CreatingDelegates.csproj.CoreCompileInputs.cache
+C:\Users\259813\Documents\CPROJECTS\Delegates Events\CreatingDelegates\CreatingDelegates\obj\Debug\CreatingDelegates.csproj.CopyComplete
+C:\Users\259813\Documents\CPROJECTS\Delegates Events\CreatingDelegates\CreatingDelegates\obj\Debug\CreatingDelegates.exe
+C:\Users\259813\Documents\CPROJECTS\Delegates Events\CreatingDelegates\CreatingDelegates\obj\Debug\CreatingDelegates.pdb
