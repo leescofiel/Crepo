@@ -7,6 +7,6 @@ using System.Threading.Tasks;
 namespace ClassLibrary1
 {
     //delegate type
-    public delegate int MyDelegate(int a, int b); 
+    public delegate int MyDelegate(int a, int b);
 
 }

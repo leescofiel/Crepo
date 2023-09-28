@@ -1,4 +1,43 @@
-﻿using System;
+PUBLISHER.CS
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ClassLibrary1
+{
+    //delegate type
+    //public delegate int  MyDelegate(int a, int b);
+    public class Publisher
+    {
+        //private delegate creation
+      //  private MyDelegate myDelegate;
+        //step 1:create an event
+
+        //162)Func data 
+        public event Action<int,int> myEvent;
+        
+
+        public void RaiseEvent(int a,int b)
+        {
+            //step2:raise event
+            if(this.myEvent != null)
+            {
+               this.myEvent(a, b);
+            
+            }
+            //else
+            //{
+            //    return 0;
+            //}
+           
+        }
+    }
+}
+----------------------------------------------
+PROGRAM.CS
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,11 +50,6 @@ namespace EventsExample
     {
         static void Main()
         {
-            Program p= new Program();
-            p.DoWork();
-        }
-
-        public void DoWork(){
 
             //create obj of sub class
             //Subscriber subscriber = new Subscriber();
@@ -34,11 +68,10 @@ namespace EventsExample
 
             //160)lambada expression
             //161)INLINE LAMBDA FUNCTION
-            publisher.myEvent += (sender, e) =>
+            publisher.myEvent += (a, b) =>
             {
-                int c = e.a + e.b;
+                int c = a + b;
                 Console.WriteLine(c);
-
             };
             //{
             //    // int c = a + b;
@@ -49,10 +82,10 @@ namespace EventsExample
 
 
             //invoke the ev
-           publisher.RaiseEvent(this, 10, 18);
-            publisher.RaiseEvent(this,5,9);
+            publisher.RaiseEvent(10, 20);
+            publisher.RaiseEvent(5, 20);
 
             Console.ReadKey();
-        } 
+        }
     }
 }

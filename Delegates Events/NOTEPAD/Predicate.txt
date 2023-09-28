@@ -1,0 +1,95 @@
+PUBLISHER.CS
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ClassLibrary1
+{
+    //delegate type
+    //public delegate int  MyDelegate(int a, int b);
+    public class Publisher
+    {
+        //private delegate creation
+      //  private MyDelegate myDelegate;
+        //step 1:create an event
+
+        //162)Func data 
+        //public event Action<int,int> myEvent;
+
+        //164)predicate
+        public event Predicate<int> myEvent;
+
+
+        public bool RaiseEvent(int a)
+        {
+            //step2:raise event
+            if(this.myEvent != null)
+            {
+              bool result= this.myEvent(a);
+                return result;
+            
+            }
+            else
+            {
+              return false;
+            }
+           
+        }
+    }
+}
+-------------------------------------------------------
+PROGRAM.CS
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ClassLibrary1;
+
+namespace EventsExample
+{
+    internal class Program
+    {
+        static void Main()
+        {
+
+            //create obj of sub class
+            //Subscriber subscriber = new Subscriber();
+
+            //create obj for publsiher class
+            Publisher publisher = new Publisher();
+
+            //handle evet
+            // publisher.myEvent += subscriber.Add;
+
+            //159)1ananymous method 
+            //publisher.myEvent += delegate (int a, int b)
+            //{
+            //    Console.WriteLine(a + b);
+            //};
+
+            //160)lambada expression
+            //161)INLINE LAMBDA FUNCTION
+            publisher.myEvent += (a) =>
+            {
+                return a >= 0;
+
+            };
+            //{
+            //    // int c = a + b;
+            //    // Console.WriteLine(c);
+            //    return a + b;
+            //   // return c;
+            //};
+
+
+            //invoke the ev
+           Console.WriteLine( publisher.RaiseEvent(10));
+           Console.WriteLine( publisher.RaiseEvent(-5));
+
+            Console.ReadKey();
+        }
+    }
+}
